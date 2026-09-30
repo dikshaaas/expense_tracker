@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f8f8;
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 600px;
+    max-width: 90%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(56, 11, 11);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input,
+select,
+button {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #f1eeee;
+}
+
+button {
+    background-color: #702f2f;
+    color: rgb(235, 233, 233);
+}
+
+#buttondelete {
+    background-color: #702f2f;
+    color: white;
+    font-size: 12px;
+    padding: 5px 8px;
+    border-radius: 4px;
+    width: 60px;
+}
+#buttondelete:hover{
+    background-color:#ad5959;
+}
+
+button:hover {
+    background-color: #ad5959;
+}
+
+#expenseList li {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin-bottom: 2px;
+}
+
+.total {
+    text-align: right;
+    margin-top: 20px;
+    color: #6a0f20;
+}
+
